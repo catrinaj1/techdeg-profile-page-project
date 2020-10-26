@@ -83,7 +83,7 @@ header .profile-image:hover {
   -webkit-transform: scale(1.2) rotate(15deg);
   transform: scale(1.2) rotate(15deg);
 }
-.exp-header {
+.main-heading {
   color: #ffffff;
   font-size: 60px;
   margin-top: 150px;
@@ -158,6 +158,25 @@ ul.skills {
   display: inline-block;
 }
 
+form textarea {
+  margin: 20px 0;
+}
+
+form input, textarea {
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+
+input[type=submit] {
+  background-color: #E6E6FA;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -189,12 +208,6 @@ a.social {
   opacity: .4;
   -webkit-transition: all .5s;
   transition: all .5s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
 }
 a.github {
   background-image: url(images/github.svg);
